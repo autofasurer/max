@@ -960,7 +960,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 82.0, 18.0, 91.0, 22.0 ],
+					"patching_rect" : [ 82.0, 17.0, 91.0, 22.0 ],
 					"style" : ""
 				}
 
