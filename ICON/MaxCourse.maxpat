@@ -135,7 +135,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 548.0, 350.0, 873.0, 321.0 ],
+						"rect" : [ 546.0, 349.0, 873.0, 321.0 ],
 						"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -164,6 +164,58 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 360.0, 79.0, 130.0, 74.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 394.0, 94.0, 130.0, 74.0 ],
+									"style" : "",
+									"text" : "INPUTS?\n\nPROCESSES? \n\nOUTPUTS?",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 348.0, 220.0, 158.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 379.0, 79.0, 130.0, 74.0 ],
+									"style" : "",
+									"text" : "GIYF\nEXTERNALS = LIBRARIES\nTHERE'S NO SINGLE WAY",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"grad1" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"grad2" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-22",
+									"maxclass" : "panel",
+									"mode" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 300.0, 196.0, 254.0, 95.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 299.0, 175.0, 252.0, 145.0 ],
+									"proportion" : 0.39,
+									"style" : ""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"autofit" : 1,
 									"forceaspect" : 1,
@@ -214,32 +266,17 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 379.0, 79.0, 130.0, 74.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 5,
-									"presentation_rect" : [ 379.0, 79.0, 130.0, 74.0 ],
-									"style" : "",
-									"text" : "INPUTS?\n\nPROCESSES? \n\nOUTPUTS?"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontsize" : 24.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 352.5, 35.0, 183.0, 33.0 ],
+									"patching_rect" : [ 345.0, 35.0, 183.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 352.5, 35.0, 183.0, 33.0 ],
 									"style" : "",
-									"text" : "ORGANIZE"
+									"text" : "ORGANIZE",
+									"textjustification" : 1
 								}
 
 							}
@@ -253,7 +290,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 298.0, 28.0, 252.0, 145.0 ],
+									"patching_rect" : [ 300.0, 28.0, 252.0, 145.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 298.0, 28.0, 252.0, 145.0 ],
 									"proportion" : 0.39,
