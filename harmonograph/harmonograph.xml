@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "harmonograph">
+	<slot number = "1">
+		<pattr name = "f1" value = "100." />
+		<pattr name = "p1" value = "1." />
+		<pattr name = "A1" value = "0.2" />
+		<pattr name = "d1" value = "0.02" />
+		<pattr name = "f2" value = "100." />
+		<pattr name = "p2" value = "1." />
+		<pattr name = "A2" value = "0.2" />
+		<pattr name = "d2" value = "0.02" />
+		<pattr name = "f3" value = "200." />
+		<pattr name = "p3" value = "-1." />
+		<pattr name = "A3" value = "0.2" />
+		<pattr name = "d3" value = "0.002" />
+		<pattr name = "f4" value = "200." />
+		<pattr name = "p4" value = "-1." />
+		<pattr name = "A4" value = "0.2" />
+		<pattr name = "d4" value = "0.06" />
+		<pattr name = "dim" value = "1000" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "f1" value = "-158." />
+		<pattr name = "p1" value = "-0.14" />
+		<pattr name = "A1" value = "1.1" />
+		<pattr name = "d1" value = "0.02" />
+		<pattr name = "f2" value = "52." />
+		<pattr name = "p2" value = "-0.5" />
+		<pattr name = "A2" value = "0." />
+		<pattr name = "d2" value = "1.31" />
+		<pattr name = "f3" value = "176." />
+		<pattr name = "p3" value = "-0.27" />
+		<pattr name = "A3" value = "1.64" />
+		<pattr name = "d3" value = "0.24" />
+		<pattr name = "f4" value = "-182." />
+		<pattr name = "p4" value = "0.8" />
+		<pattr name = "A4" value = "0.54" />
+		<pattr name = "d4" value = "0.66" />
+		<pattr name = "dim" value = "1000" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "f1" value = "-122." />
+		<pattr name = "p1" value = "-0.66" />
+		<pattr name = "A1" value = "-0.01" />
+		<pattr name = "d1" value = "1.75" />
+		<pattr name = "f2" value = "-103." />
+		<pattr name = "p2" value = "-0.79" />
+		<pattr name = "A2" value = "-0.89" />
+		<pattr name = "d2" value = "0.47" />
+		<pattr name = "f3" value = "-189." />
+		<pattr name = "p3" value = "-0.09" />
+		<pattr name = "A3" value = "0.02" />
+		<pattr name = "d3" value = "0.24" />
+		<pattr name = "f4" value = "106." />
+		<pattr name = "p4" value = "0.5" />
+		<pattr name = "A4" value = "-0.35" />
+		<pattr name = "d4" value = "0.97" />
+		<pattr name = "dim" value = "4000" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "f1" value = "172." />
+		<pattr name = "p1" value = "-0.52" />
+		<pattr name = "A1" value = "-0.8" />
+		<pattr name = "d1" value = "1.65" />
+		<pattr name = "f2" value = "173." />
+		<pattr name = "p2" value = "0.04" />
+		<pattr name = "A2" value = "-0.66" />
+		<pattr name = "d2" value = "0.66" />
+		<pattr name = "f3" value = "-186." />
+		<pattr name = "p3" value = "-0.99" />
+		<pattr name = "A3" value = "0.33" />
+		<pattr name = "d3" value = "0.17" />
+		<pattr name = "f4" value = "176." />
+		<pattr name = "p4" value = "0.87" />
+		<pattr name = "A4" value = "0.83" />
+		<pattr name = "d4" value = "1.36" />
+		<pattr name = "dim" value = "4000" />
+	</slot>
+	<slot number = "5">
+		<pattr name = "f1" value = "199." />
+		<pattr name = "p1" value = "-0.03" />
+		<pattr name = "A1" value = "0.2" />
+		<pattr name = "d1" value = "0." />
+		<pattr name = "f2" value = "86." />
+		<pattr name = "p2" value = "-0.87" />
+		<pattr name = "A2" value = "0.2" />
+		<pattr name = "d2" value = "0." />
+		<pattr name = "f3" value = "59." />
+		<pattr name = "p3" value = "-0.25" />
+		<pattr name = "A3" value = "0.2" />
+		<pattr name = "d3" value = "0." />
+		<pattr name = "f4" value = "150." />
+		<pattr name = "p4" value = "0.3" />
+		<pattr name = "A4" value = "0.2" />
+		<pattr name = "d4" value = "0." />
+		<pattr name = "dim" value = "200" />
+	</slot>
+	<slot number = "6">
+		<pattr name = "f1" value = "-123." />
+		<pattr name = "p1" value = "-1." />
+		<pattr name = "A1" value = "0.1" />
+		<pattr name = "d1" value = "0." />
+		<pattr name = "f2" value = "134." />
+		<pattr name = "p2" value = "0.64" />
+		<pattr name = "A2" value = "0.1" />
+		<pattr name = "d2" value = "0." />
+		<pattr name = "f3" value = "-145." />
+		<pattr name = "p3" value = "-0.4" />
+		<pattr name = "A3" value = "0.1" />
+		<pattr name = "d3" value = "0." />
+		<pattr name = "f4" value = "-110." />
+		<pattr name = "p4" value = "0.77" />
+		<pattr name = "A4" value = "0.1" />
+		<pattr name = "d4" value = "0." />
+		<pattr name = "dim" value = "200" />
+	</slot>
+	<slot number = "7">
+		<pattr name = "f1" value = "156." />
+		<pattr name = "p1" value = "0.26" />
+		<pattr name = "A1" value = "-0.01" />
+		<pattr name = "d1" value = "1.86" />
+		<pattr name = "f2" value = "-5." />
+		<pattr name = "p2" value = "0.05" />
+		<pattr name = "A2" value = "-0.71" />
+		<pattr name = "d2" value = "1.11" />
+		<pattr name = "f3" value = "159." />
+		<pattr name = "p3" value = "-0.75" />
+		<pattr name = "A3" value = "0.33" />
+		<pattr name = "d3" value = "1.64" />
+		<pattr name = "f4" value = "177." />
+		<pattr name = "p4" value = "-0.73" />
+		<pattr name = "A4" value = "0.38" />
+		<pattr name = "d4" value = "0.68" />
+		<pattr name = "dim" value = "2000" />
+	</slot>
+</pattrstorage>
+
