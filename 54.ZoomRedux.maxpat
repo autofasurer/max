@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 504.0, 78.0, 1371.0, 753.0 ],
+		"rect" : [ 503.0, 78.0, 1371.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1072.0, 382.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "8"
+					"text" : "18"
 				}
 
 			}
@@ -71,7 +71,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1017.0, 382.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "18"
+					"text" : "8"
 				}
 
 			}
@@ -227,7 +227,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 869.5, 406.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "layer 1"
+					"text" : "layer 0"
 				}
 
 			}
@@ -240,7 +240,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 698.0, 406.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "layer 0"
+					"text" : "layer 1"
 				}
 
 			}
@@ -326,6 +326,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-114",
@@ -401,7 +402,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 467.0, 526.5, 175.0, 22.0 ],
-									"presentation_rect" : [ 727.0, 418.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "setcell $1 $2 val 0 $3 $3 $3"
 								}
@@ -414,8 +414,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 467.0, 604.0, 200.0, 200.0 ],
-									"presentation_rect" : [ 727.0, 495.0, 0.0, 0.0 ]
+									"patching_rect" : [ 467.0, 604.0, 200.0, 200.0 ]
 								}
 
 							}
@@ -496,7 +495,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 533.5, 163.5, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "-25. -5."
+									"text" : "0. -23."
 								}
 
 							}
@@ -533,7 +532,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 622.0, 265.0, 450.0, 127.0 ],
+									"patching_rect" : [ 622.0, 265.0, 454.0, 127.0 ],
 									"style" : "",
 									"text" : "We also have to fake the 'length' object, because it doesn't exist outside jit.gl.pix or jit.gen. It basically calculates the 'length of a vector'. This is actually the equivalent of Pythagorean theorem, where these two values and the origin (point 0, 0) are the points of the hypothenuse. Yay math! I can explain more next workshop if need be. \nSo in order to find this 'length' we need to do this (the 2's are power of 2): c2 = (xA − xB)2 + (yA − yB)2. If we take the square root of c we get the lenght. The further our point is away from the center (0,0), the higher the value of c will be, which, if we use it to set the color, we will get a nice, radial gradient! \nYou can follow the entire calculation step by step from the top."
 								}
@@ -574,7 +573,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 533.5, 277.0, 75.0, 22.0 ],
 									"style" : "",
-									"text" : "-0.96 -0.2"
+									"text" : "0. -0.92"
 								}
 
 							}
@@ -702,7 +701,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 464.5, 53.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "1 20"
+									"text" : "25 2"
 								}
 
 							}
@@ -752,9 +751,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 152.5, 146.5, 246.0, 47.0 ],
+									"patching_rect" : [ 152.5, 145.5, 246.0, 47.0 ],
 									"style" : "",
-									"text" : "the first counter goes from 0 to 9, and when it reaches 9 bangs out of the third outlet, which increments the second counter."
+									"text" : "the first counter goes from 0 to 49, and when it reaches 49 bangs out of the third outlet, which increments the second counter."
 								}
 
 							}
@@ -787,13 +786,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 119.5, 92.0, 193.0, 47.0 ],
+									"patching_rect" : [ 119.0, 92.0, 194.0, 60.0 ],
 									"style" : "",
-									"text" : "using 2 counters to simulate going through all the cells in our matrix, starting with 0,0 and going to 9, 9"
+									"text" : "using 2 counters to simulate going through all the cells in our matrix, starting with 0,0 and going to 49, 49"
 								}
 
 							}
@@ -848,7 +847,7 @@
 									"outlettype" : [ "int", "", "", "int" ],
 									"patching_rect" : [ 68.5, 152.5, 82.0, 22.0 ],
 									"style" : "",
-									"text" : "counter 0 50"
+									"text" : "counter 0 49"
 								}
 
 							}
@@ -965,7 +964,7 @@
 									"outlettype" : [ "int", "", "", "int" ],
 									"patching_rect" : [ 33.0, 92.0, 78.0, 22.0 ],
 									"style" : "",
-									"text" : "counter 0 50"
+									"text" : "counter 0 49"
 								}
 
 							}
@@ -980,7 +979,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 16.0, 13.0, 400.0, 671.0 ],
+									"patching_rect" : [ 16.0, 15.0, 400.0, 671.0 ],
 									"proportion" : 0.39,
 									"style" : ""
 								}
@@ -1465,7 +1464,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 168.5, 165.0, 141.0 ],
+					"patching_rect" : [ 266.0, 168.5, 169.0, 141.0 ],
 					"style" : "",
 					"text" : "added a ggate object here >>\nso we can go around the jit.gl.pix object and feed our camera input straight into the jit.gl.videoploanes. This makes it clear that what this jit.gl.pix does internally, is create a mask. Double-click jit.gl.pix to see what's going on inside!"
 				}
@@ -1474,6 +1473,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-39",
+					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
