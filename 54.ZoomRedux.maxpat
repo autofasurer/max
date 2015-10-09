@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 503.0, 78.0, 1371.0, 753.0 ],
+		"rect" : [ 405.0, 78.0, 1371.0, 753.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,51 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.0, 113.0, 211.0, 29.0 ],
+					"presentation_rect" : [ 135.0, 113.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "commented and expanded upon by brecht@autofasurer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.0, 91.0, 126.0, 18.0 ],
+					"style" : "",
+					"text" : "andrewb@cycling74.com"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Helvetica",
+					"fontsize" : 36.0,
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.0, 49.0, 149.0, 42.0 ],
+					"style" : "",
+					"text" : "Zoom"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-133",
 					"linecount" : 4,
@@ -97,20 +142,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1140.0, 188.0, 224.0, 60.0 ],
 					"style" : "",
-					"text" : "we add the value above to our counter output (which goes to the double of this). This way this number will always be half of the total count higher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-120",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 854.0, 132.0, 150.0, 47.0 ],
-					"style" : "",
-					"text" : "subtract 1, since the counter starts from 0 instead of 1. "
+					"text" : "we add the value above to our counter output (which goes to the double of this). This way this number will always be half of the count maximum higher"
 				}
 
 			}
@@ -124,18 +156,6 @@
 					"patching_rect" : [ 1036.75, 14.0, 100.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 10"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-117",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 854.0, 100.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "double the number"
 				}
 
 			}
@@ -326,8 +346,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 315.0, 96.0, 72.0, 22.0 ],
+									"style" : "",
+									"text" : "loadmess 0"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-114",
 									"linecount" : 6,
@@ -489,13 +521,14 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-80",
+									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 533.5, 163.5, 50.0, 22.0 ],
+									"patching_rect" : [ 533.5, 163.5, 50.0, 35.0 ],
 									"style" : "",
-									"text" : "0. -23."
+									"text" : "-10. -23."
 								}
 
 							}
@@ -532,7 +565,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 622.0, 265.0, 454.0, 127.0 ],
+									"patching_rect" : [ 622.0, 265.0, 457.0, 127.0 ],
 									"style" : "",
 									"text" : "We also have to fake the 'length' object, because it doesn't exist outside jit.gl.pix or jit.gen. It basically calculates the 'length of a vector'. This is actually the equivalent of Pythagorean theorem, where these two values and the origin (point 0, 0) are the points of the hypothenuse. Yay math! I can explain more next workshop if need be. \nSo in order to find this 'length' we need to do this (the 2's are power of 2): c2 = (xA − xB)2 + (yA − yB)2. If we take the square root of c we get the lenght. The further our point is away from the center (0,0), the higher the value of c will be, which, if we use it to set the color, we will get a nice, radial gradient! \nYou can follow the entire calculation step by step from the top."
 								}
@@ -573,7 +606,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 533.5, 277.0, 75.0, 22.0 ],
 									"style" : "",
-									"text" : "0. -0.92"
+									"text" : "-0.4 -0.92"
 								}
 
 							}
@@ -701,7 +734,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 464.5, 53.0, 50.0, 22.0 ],
 									"style" : "",
-									"text" : "25 2"
+									"text" : "15 2"
 								}
 
 							}
@@ -1168,6 +1201,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-34", 3 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 324.5, 148.75, 125.25, 148.75 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-108", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -1414,7 +1457,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 16.0, 411.0, 100.0, 22.0 ],
+					"patching_rect" : [ 16.0, 406.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2582,7 +2625,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 16.0, 341.0, 185.0, 22.0 ],
+					"patching_rect" : [ 16.0, 343.0, 185.0, 22.0 ],
 					"style" : "",
 					"text" : "jit.window zoomy @size 640 480"
 				}
